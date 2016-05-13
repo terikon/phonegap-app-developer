@@ -44,7 +44,7 @@
     <plugin name="cordova-plugin-whitelist" spec="~1.0.0" />
     <plugin name="cordova-plugin-insomnia" spec="~4.0.1" />
     <plugin name="cordova-plugin-ble-central" spec="~1.0.4" />
-    <plugin name="com.wikitude.phonegap.WikitudePlugin" spec="https://github.com/Wikitude/wikitude-cordova-plugin.git#feature/cordova_file_plugin_support" />
+    <plugin name="com.wikitude.phonegap.WikitudePlugin" spec="https://github.com/timkim/wikitude-cordova-plugin.git#feature/cordova_file_plugin_support" />
     <platform name="ios">
         <icon height="76" src="resources/icon/ios/icon-76.png" width="76" />
         <icon height="152" src="resources/icon/ios/icon-76@2x.png" width="152" />
@@ -88,6 +88,6 @@
         <icon height="110" src="resources/icon/wp8/TileSmall.png" width="110" />
     </platform>
     <engine name="wp8" spec="~3.8.1" />
-    <engine name="android" spec="~5.0.0" />
     <engine name="ios" spec="~4.0.1" />
+    <engine name="android" spec="~5.0.0" />
 </widget>
