@@ -101,5 +101,6 @@
         </config-file>
     </platform>
     <plugin name="cordova-custom-config" spec="~2.0.3" />
+    <plugin name="com.subitolabs.android.cordova.galleryapi" spec="https://github.com/subitolabs/cordova-gallery-api.git" />
     <engine name="android" spec="~5.0.0" />
 </widget>

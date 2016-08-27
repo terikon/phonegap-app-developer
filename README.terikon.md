@@ -13,6 +13,8 @@ This modified version supports access to DCIM folder, with [cordova-plugin-file]
 
 - Removed com.wikitude.phonegap.WikitudePlugin as it just compiles too long.
 
+- Added plugin https://github.com/subitolabs/cordova-gallery-api
+
 # Android
 
 To build:
