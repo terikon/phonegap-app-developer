@@ -17,6 +17,7 @@ This modified version supports access to DCIM folder, with [cordova-plugin-file]
 
 To build:
 
+    npm install
     npm run phonegap -- build android
     adb -e install ./platforms/android/build/outputs/apk/android-debug.apk # for emulator
     adb -d install ./platforms/android/build/outputs/apk/android-debug.apk # for device    
