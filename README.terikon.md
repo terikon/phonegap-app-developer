@@ -25,3 +25,12 @@ To build:
 For this to work, add permission for storage in **settings/apps/phonegap**. 
 
 # iOS
+
+To build:
+
+    npm install
+    npm run phonegap -- run ios
+    # or
+    npm run phonegap -- build ios
+    
+Install [ios-deploy](https://github.com/phonegap/ios-deploy) if needed.
