@@ -28,6 +28,7 @@ For this to work, add permission for storage in **settings/apps/phonegap**.
 
 # iOS
 
+Be careful! Build cleans the platforms folder, so all changes in plugins will be removed.
 To build:
 
     npm install
