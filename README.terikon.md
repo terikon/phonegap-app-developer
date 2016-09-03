@@ -1,6 +1,20 @@
 This is modified version of https://github.com/phonegap/phonegap-app-developer, forked to https://github.com/terikon/phonegap-app-developer.
 master branch should not be modified. Use branches for modifications.
 
+# Modify plugins
+
+**Be careful!** Running npm run build will remove platforms folder, and all changes to plugins will be lost! Backup platforms folder frequently.
+
+## For Android
+
+TODO
+
+## For iOS
+
+- Open XCode project.
+- Modify swift code in Plugins folder.
+- Modify js code in Staging/www/plugins/ folder
+
 # Changes from orininal phonegap-app-developer
 
 This modified version supports access to DCIM folder, with [cordova-plugin-file](https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-file/).
