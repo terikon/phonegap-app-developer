@@ -37,3 +37,5 @@ To build:
     npm run phonegap -- build ios
     
 Install [ios-deploy](https://github.com/phonegap/ios-deploy) if needed.
+
+To debug swift, open XCode project, and then change project > build settings > swift compiler-code generation > optimization level > debug > none
