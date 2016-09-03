@@ -22,6 +22,7 @@
     <preference name="DisallowOverscroll" value="true" />
     <access origin="*" />
     <access origin="cdvfile://*" />
+    <access origin="file://*" />
     <content src="index.html" />
     <plugin name="cordova-plugin-battery-status" spec="~1.1.2" />
     <plugin name="cordova-plugin-camera" spec="~2.2.0" />
@@ -94,13 +95,13 @@
         <icon height="110" src="resources/icon/wp8/TileSmall.png" width="110" />
     </platform>
     <engine name="wp8" spec="~3.8.1" />
-    <engine name="ios" spec="~4.1.1" />
     <platform name="android">
         <config-file parent="/*" target="AndroidManifest.xml">
             <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
         </config-file>
     </platform>
     <plugin name="cordova-custom-config" spec="~2.0.3" />
-    <plugin name="com.subitolabs.android.cordova.galleryapi" spec="https://github.com/subitolabs/cordova-gallery-api.git" />
+    <plugin name="cordova-plugin-photo-library" spec="https://github.com/terikon/cordova-plugin-photo-library.git" />
     <engine name="android" spec="~5.0.0" />
+    <engine name="ios" spec="~4.1.1" />
 </widget>
