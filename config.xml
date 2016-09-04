@@ -13,9 +13,7 @@
     <hook src="resources/script/remove-hockeyapp.js" type="after_compile" />
     <hook src="resources/script/restore-analytics.js" type="after_compile" />
     <hook src="resources/script/remove-version.js" type="after_compile" />
-    <platform name="ios">
-        <preference name="Orientation" value="all" />
-    </platform>
+    <preference name="Orientation" value="portrait" />
     <preference name="StatusBarStyle" value="default" />
     <preference name="ShowSplashScreenSpinner" value="false" />
     <preference name="AutoHideSplashScreen" value="false" />
