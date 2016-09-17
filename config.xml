@@ -102,11 +102,11 @@
     </platform>
     <plugin name="cordova-custom-config" spec="~2.0.3" />
     <plugin name="cordova-plugin-photo-library" spec="https://github.com/terikon/cordova-plugin-photo-library.git" />
-    <engine name="ios" spec="~4.1.1" />
     <preference name="xwalkVersion" value="19" />
     <preference name="xwalkCommandLine" value="--disable-pull-to-refresh-effect" />
     <preference name="xwalkMode" value="embedded" />
     <preference name="xwalkMultipleApk" value="true" />
     <plugin name="cordova-plugin-crosswalk-webview" spec="~2.0.0" />
-    <engine name="android" spec="~5.0.0" />
+    <engine name="android" spec="~5.2.2" />
+    <engine name="ios" spec="~4.2.1" />
 </widget>
