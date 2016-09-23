@@ -25,6 +25,7 @@ This modified version supports access to DCIM folder, with [cordova-plugin-file]
 - Removed com.wikitude.phonegap.WikitudePlugin as it just compiles too long.
 - Added plugin https://github.com/terikon/cordova-plugin-photo-library
 - Added plugin cordova-plugin-crosswalk-webview, v19 (v20 does not support Android 4.0)
+- Removed barcode-scanner, and incorrect version used (use https://github.com/phonegap/phonegap-plugin-barcodescanner if needed, to prevent issues with xwalk).
 
 # Android
 
