@@ -79,6 +79,7 @@
         <allow-intent href="itms-apps:*" />
         <allow-intent href="fb:*" />
         <allow-navigation href="http://*/*" />
+        <allow-navigation href="fb://*/*" />
     </platform>
     <platform name="android">
         <preference name="android-minSdkVersion" value="16" />
@@ -99,6 +100,13 @@
     <platform name="android">
         <config-file parent="/*" target="AndroidManifest.xml">
             <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+        </config-file>
+    </platform>
+    <platform name="ios">
+        <config-file parent="LSApplicationQueriesSchemes" target="*-Info.plist">
+            <array>
+                <string>fb</string>
+            </array>
         </config-file>
     </platform>
     <plugin name="cordova-custom-config" spec="~2.0.3" />
