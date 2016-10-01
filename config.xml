@@ -120,4 +120,5 @@
         <variable name="REVERSED_CLIENT_ID" value="com.googleusercontent.apps.755857797370-7moubauk9pod2a8qjuks4ins375j9n1e" />
     </plugin>
     <engine name="ios" spec="~4.2.1" />
+    <plugin name="cordova-plugin-safariviewcontroller" spec="~1.4.6" />
 </widget>

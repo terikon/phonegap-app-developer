@@ -28,6 +28,7 @@ This modified version supports access to DCIM folder, with [cordova-plugin-file]
 - Removed barcode-scanner, and incorrect version used (use https://github.com/phonegap/phonegap-plugin-barcodescanner if needed, to prevent issues with xwalk).
 - Added cordova-plugin-googleplus plugin
 - Renamed app name to com.terikon.phonegap.app from com.adobe.phonegap.app
+- Added cordova-plugin-safariviewcontroller
 
 # Android
 
