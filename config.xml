@@ -109,7 +109,7 @@
         </config-file>
     </platform>
     <plugin name="cordova-custom-config" spec="~2.0.3" />
-    <plugin name="cordova-plugin-photo-library" spec="https://github.com/terikon/cordova-plugin-photo-library.git" />
+    <plugin name="cordova-plugin-photo-library" spec="~1.0.0" />
     <preference name="xwalkVersion" value="21" />
     <preference name="xwalkCommandLine" value="--disable-pull-to-refresh-effect" />
     <preference name="xwalkMode" value="embedded" />
