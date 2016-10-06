@@ -29,6 +29,7 @@ This modified version supports access to DCIM folder, with [cordova-plugin-file]
 - Added cordova-plugin-googleplus plugin
 - Renamed app name to com.terikon.phonegap.app from com.adobe.phonegap.app
 - Added cordova-plugin-safariviewcontroller
+- Added cordova-plugin-chrome-apps-system-cpu
 
 # Android
 
